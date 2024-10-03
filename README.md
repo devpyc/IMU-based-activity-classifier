@@ -4,3 +4,6 @@
 
 ---
 
+# 데이터 셋
+
+https://www.kaggle.com/datasets/benjamingray44/inertial-data-for-dog-behaviour-classification/data?select=DogMoveData.csv
