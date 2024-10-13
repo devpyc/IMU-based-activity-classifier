@@ -1,16 +1,12 @@
-import wandb
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, LSTM, Conv1D, MaxPooling1D
+from tensorflow.keras.layers import Dense, LSTM, Conv1D, MaxPooling1D, GRU
 from tensorflow.keras.utils import to_categorical
 from sklearn.metrics import confusion_matrix, classification_report
 import tensorflow as tf
-
-# 1. Weights & Biases 초기화 및 프로젝트 설정
-wandb.init(project="dog_behavior_prediction", entity="dksalstn1116-university-of-ulsan")
 
 # 2. 데이터 불러오기
 data = pd.read_csv('./dataset/DogMoveData.csv')
@@ -95,9 +91,9 @@ class_weights = {
 
 # 모델 정의
 model = Sequential()
-model.add(Conv1D(64, 2, activation='relu', input_shape=(X_train.shape[1], 1)))
+model.add(Conv1D(64, 2, activation='selu', input_shape=(X_train.shape[1], 1)))
 model.add(MaxPooling1D(pool_size=2))
-model.add(LSTM(64))
+model.add(GRU(64))
 model.add(Dense(32, activation='relu'))
 model.add(Dense(7, activation='softmax'))
 
@@ -152,16 +148,7 @@ for epoch in range(num_epochs):
     print(
         f'Epoch {epoch + 1} Loss: {epoch_loss.numpy()}, Accuracy: {accuracy.numpy()}, Val Loss: {val_loss.numpy()}, Val Accuracy: {val_accuracy.numpy()}')
 
-    # WandB에 로그 기록
-    wandb.log({
-        "epoch": epoch + 1,
-        "loss": epoch_loss.numpy(),
-                "accuracy": accuracy.numpy(),  # 훈련 정확도 로그 기록
-        "val_loss": val_loss.numpy(),   # 검증 손실 로그 기록
-        "val_accuracy": val_accuracy.numpy()  # 검증 정확도 로그 기록
-    })
-
-# 평가 및 결과 WandB에 로그
+# 평가 및 결과
 y_pred = model.predict(np.expand_dims(X_test, axis=-1))
 y_pred_classes = np.argmax(y_pred, axis=1)
 y_test_classes = np.argmax(y_test, axis=1)
@@ -175,16 +162,5 @@ class_report = classification_report(y_test_classes, y_pred_classes, target_name
 print("Classification Report:")
 print(class_report)
 
-# WandB에 혼동 행렬 및 분류 보고서 로그
-wandb.log({
-    "confusion_matrix": wandb.plot.confusion_matrix(probs=None,
-                                                    y_true=y_test_classes,
-                                                    preds=y_pred_classes,
-                                                    class_names=le.classes_),
-    "classification_report": wandb.Table(dataframe=pd.DataFrame(
-        classification_report(y_test_classes, y_pred_classes, target_names=le.classes_, output_dict=True)).transpose())
-})
-
 # 모델 저장
-model.save('wandb_model_final.h5')
-wandb.finish()
+model.save('model_final.h5')
