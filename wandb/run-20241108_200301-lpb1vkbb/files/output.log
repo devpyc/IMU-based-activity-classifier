@@ -1,0 +1,48 @@
+['Galloping' 'Standing' 'Walking']
+WARNING:tensorflow:Layer gru will not use cuDNN kernels since it doesn't meet the criteria. It will use a generic GPU kernel as fallback when running on GPU.
+Epoch 1/10
+1563/1563 [==============================] - 8s 5ms/step
+Epoch 1 Loss: 0.9798941612243652, Accuracy: 0.84375, Val Loss: 0.40330278873443604, Val Accuracy: 0.8545599579811096
+Epoch 2/10
+1563/1563 [==============================] - 8s 5ms/step
+Epoch 2 Loss: 0.9018335938453674, Accuracy: 0.84375, Val Loss: 0.3767079710960388, Val Accuracy: 0.8597599864006042
+Epoch 3/10
+1563/1563 [==============================] - 8s 5ms/step
+Epoch 3 Loss: 0.9256997108459473, Accuracy: 0.84375, Val Loss: 0.35770678520202637, Val Accuracy: 0.8636999726295471
+Epoch 4/10
+1563/1563 [==============================] - 8s 5ms/step
+Epoch 4 Loss: 0.9562739133834839, Accuracy: 0.84375, Val Loss: 0.34724661707878113, Val Accuracy: 0.8659999966621399
+Epoch 5/10
+1563/1563 [==============================] - 8s 5ms/step
+Epoch 5 Loss: 0.938190221786499, Accuracy: 0.84375, Val Loss: 0.3417956829071045, Val Accuracy: 0.8677399754524231
+Epoch 6/10
+1563/1563 [==============================] - 8s 5ms/step
+Epoch 6 Loss: 0.9035124182701111, Accuracy: 0.84375, Val Loss: 0.33744069933891296, Val Accuracy: 0.8686999678611755
+Epoch 7/10
+1563/1563 [==============================] - 8s 5ms/step
+Epoch 7 Loss: 0.9116385579109192, Accuracy: 0.84375, Val Loss: 0.33307963609695435, Val Accuracy: 0.8701399564743042
+Epoch 8/10
+1563/1563 [==============================] - 8s 5ms/step
+Epoch 8 Loss: 0.9269118905067444, Accuracy: 0.84375, Val Loss: 0.3295174241065979, Val Accuracy: 0.8719599843025208
+Epoch 9/10
+1563/1563 [==============================] - 8s 5ms/step
+Epoch 9 Loss: 0.939236581325531, Accuracy: 0.8125, Val Loss: 0.32651424407958984, Val Accuracy: 0.8736000061035156
+Epoch 10/10
+1563/1563 [==============================] - 8s 5ms/step
+Epoch 10 Loss: 0.9573811888694763, Accuracy: 0.8125, Val Loss: 0.32426032423973083, Val Accuracy: 0.8740800023078918
+1563/1563 [==============================] - 8s 5ms/step
+Confusion Matrix:
+[[ 9423    49   528]
+ [  181 17623  2196]
+ [ 1734  1608 16658]]
+Classification Report:
+              precision    recall  f1-score   support
+
+   Galloping       0.83      0.94      0.88     10000
+    Standing       0.91      0.88      0.90     20000
+     Walking       0.86      0.83      0.85     20000
+
+    accuracy                           0.87     50000
+   macro avg       0.87      0.89      0.88     50000
+weighted avg       0.88      0.87      0.87     50000
+WARNING:tensorflow:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.

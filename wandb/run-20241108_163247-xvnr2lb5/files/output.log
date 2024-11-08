@@ -1,0 +1,5 @@
+Behavior_1
+Walking      100000
+Standing     100000
+Galloping     50000
+Name: count, dtype: int64

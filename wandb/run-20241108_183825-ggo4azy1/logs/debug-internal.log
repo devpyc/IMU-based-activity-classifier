@@ -1,0 +1,19 @@
+{"time":"2024-11-08T18:38:25.520536+09:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-11-08T18:38:25.52059+09:00","level":"INFO","msg":"created symlink","path":"/Users/ahnminsu/PycharmProjects/Pet-i-CNN-Model/wandb/run-20241108_183825-ggo4azy1/logs/debug-core.log"}
+{"time":"2024-11-08T18:38:25.526371+09:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-11-08T18:38:25.539314+09:00","level":"INFO","msg":"created new stream","id":"ggo4azy1"}
+{"time":"2024-11-08T18:38:25.539373+09:00","level":"INFO","msg":"stream: started","id":"ggo4azy1"}
+{"time":"2024-11-08T18:38:25.53942+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"ggo4azy1"}}
+{"time":"2024-11-08T18:38:25.539374+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ggo4azy1"}}
+{"time":"2024-11-08T18:38:25.539444+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"ggo4azy1"}}
+{"time":"2024-11-08T18:38:26.037173+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-11-08T18:38:26.039956+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-08T18:38:36.056023+09:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-11-08T18:38:38.011113+09:00","level":"INFO","msg":"stream: closing","id":"ggo4azy1"}
+{"time":"2024-11-08T18:38:38.011424+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-08T18:38:38.011459+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-08T18:38:39.113097+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-08T18:38:39.468189+09:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"ggo4azy1"}}
+{"time":"2024-11-08T18:38:39.468224+09:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"ggo4azy1"}}
+{"time":"2024-11-08T18:38:39.468212+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ggo4azy1"}}
+{"time":"2024-11-08T18:38:39.46864+09:00","level":"INFO","msg":"stream: closed","id":"ggo4azy1"}

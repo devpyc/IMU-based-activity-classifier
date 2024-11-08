@@ -1,0 +1,19 @@
+{"time":"2024-11-08T16:31:11.23572+09:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-11-08T16:31:11.2358+09:00","level":"INFO","msg":"created symlink","path":"/Users/ahnminsu/PycharmProjects/Pet-i-CNN-Model/wandb/run-20241108_163111-tfhek8w9/logs/debug-core.log"}
+{"time":"2024-11-08T16:31:11.236304+09:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-11-08T16:31:11.244703+09:00","level":"INFO","msg":"created new stream","id":"tfhek8w9"}
+{"time":"2024-11-08T16:31:11.244745+09:00","level":"INFO","msg":"stream: started","id":"tfhek8w9"}
+{"time":"2024-11-08T16:31:11.244753+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"tfhek8w9"}}
+{"time":"2024-11-08T16:31:11.244772+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"tfhek8w9"}}
+{"time":"2024-11-08T16:31:11.244781+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"tfhek8w9"}}
+{"time":"2024-11-08T16:31:11.813708+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-11-08T16:31:11.815217+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-08T16:31:21.835302+09:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-11-08T16:31:23.677917+09:00","level":"INFO","msg":"stream: closing","id":"tfhek8w9"}
+{"time":"2024-11-08T16:31:23.678175+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-08T16:31:23.678404+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-08T16:31:27.306561+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-08T16:31:27.759955+09:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"tfhek8w9"}}
+{"time":"2024-11-08T16:31:27.76+09:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"tfhek8w9"}}
+{"time":"2024-11-08T16:31:27.759981+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"tfhek8w9"}}
+{"time":"2024-11-08T16:31:27.760379+09:00","level":"INFO","msg":"stream: closed","id":"tfhek8w9"}

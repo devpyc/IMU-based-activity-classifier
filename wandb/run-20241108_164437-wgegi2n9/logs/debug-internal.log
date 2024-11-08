@@ -1,0 +1,19 @@
+{"time":"2024-11-08T16:44:37.989102+09:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-11-08T16:44:37.989147+09:00","level":"INFO","msg":"created symlink","path":"/Users/ahnminsu/PycharmProjects/Pet-i-CNN-Model/wandb/run-20241108_164437-wgegi2n9/logs/debug-core.log"}
+{"time":"2024-11-08T16:44:37.995055+09:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-11-08T16:44:38.013144+09:00","level":"INFO","msg":"created new stream","id":"wgegi2n9"}
+{"time":"2024-11-08T16:44:38.01319+09:00","level":"INFO","msg":"stream: started","id":"wgegi2n9"}
+{"time":"2024-11-08T16:44:38.013213+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"wgegi2n9"}}
+{"time":"2024-11-08T16:44:38.013277+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"wgegi2n9"}}
+{"time":"2024-11-08T16:44:38.013196+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"wgegi2n9"}}
+{"time":"2024-11-08T16:44:38.568509+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-11-08T16:44:38.571099+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-08T16:44:48.605813+09:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-11-08T16:44:50.357438+09:00","level":"INFO","msg":"stream: closing","id":"wgegi2n9"}
+{"time":"2024-11-08T16:44:50.358471+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-08T16:44:50.358512+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-08T16:44:51.675612+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-08T16:44:52.08279+09:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"wgegi2n9"}}
+{"time":"2024-11-08T16:44:52.082825+09:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"wgegi2n9"}}
+{"time":"2024-11-08T16:44:52.082811+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"wgegi2n9"}}
+{"time":"2024-11-08T16:44:52.083266+09:00","level":"INFO","msg":"stream: closed","id":"wgegi2n9"}

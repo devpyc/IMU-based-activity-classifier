@@ -1,0 +1,14 @@
+         DogID  TestNum   t_sec  ...   Behavior_2   Behavior_3   PointEvent
+9567286     68        1  796.94  ...  <undefined>  <undefined>  <undefined>
+9716243     70        1  416.79  ...  <undefined>  <undefined>  <undefined>
+2708782     29        1  736.58  ...  <undefined>  <undefined>  <undefined>
+1843083     26        1  337.03  ...  <undefined>  <undefined>  <undefined>
+7067567     52        1  708.27  ...  <undefined>  <undefined>  <undefined>
+...        ...      ...     ...  ...          ...          ...          ...
+5857553     47        1  305.01  ...      Playing  <undefined>  <undefined>
+5857554     47        1  305.02  ...      Playing  <undefined>  <undefined>
+5857555     47        1  305.03  ...      Playing  <undefined>  <undefined>
+5857556     47        1  305.04  ...      Playing  <undefined>  <undefined>
+5857557     47        1  305.05  ...      Playing  <undefined>  <undefined>
+
+[250000 rows x 20 columns]

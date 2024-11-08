@@ -1,0 +1,11 @@
+{"time":"2024-11-08T20:59:10.527747+09:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-11-08T20:59:10.527769+09:00","level":"INFO","msg":"created symlink","path":"/Users/ahnminsu/PycharmProjects/Pet-i-CNN-Model/wandb/run-20241108_205910-z8wef0a1/logs/debug-core.log"}
+{"time":"2024-11-08T20:59:10.530164+09:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-11-08T20:59:10.534591+09:00","level":"INFO","msg":"created new stream","id":"z8wef0a1"}
+{"time":"2024-11-08T20:59:10.53463+09:00","level":"INFO","msg":"stream: started","id":"z8wef0a1"}
+{"time":"2024-11-08T20:59:10.534702+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"z8wef0a1"}}
+{"time":"2024-11-08T20:59:10.534637+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"z8wef0a1"}}
+{"time":"2024-11-08T20:59:10.534671+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"z8wef0a1"}}
+{"time":"2024-11-08T20:59:11.099918+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-11-08T20:59:11.100988+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-08T20:59:21.132234+09:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}

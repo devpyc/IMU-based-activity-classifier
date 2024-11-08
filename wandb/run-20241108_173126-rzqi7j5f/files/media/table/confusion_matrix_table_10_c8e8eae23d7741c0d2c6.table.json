@@ -1,0 +1,1 @@
+{"columns": ["Actual", "Predicted", "nPredictions"], "data": [["Galloping", "Galloping", 9027.0], ["Galloping", "Standing", 103.0], ["Galloping", "Walking", 870.0], ["Standing", "Galloping", 107.0], ["Standing", "Standing", 18019.0], ["Standing", "Walking", 1874.0], ["Walking", "Galloping", 967.0], ["Walking", "Standing", 2282.0], ["Walking", "Walking", 16751.0]]}

@@ -1,0 +1,68 @@
+Epoch 1/10
+4781/4781 [==============================] - 7s 1ms/step
+Epoch 1 Loss: 1.3267507553100586, Accuracy: 0.8333333730697632, Val Loss: 1.6203765869140625, Val Accuracy: 0.5208970308303833
+Epoch 2/10
+4781/4781 [==============================] - 6s 1ms/step
+Epoch 2 Loss: 1.2274365425109863, Accuracy: 0.8333333730697632, Val Loss: 3.082059621810913, Val Accuracy: 0.4407861828804016
+Epoch 3/10
+4781/4781 [==============================] - 7s 1ms/step
+Epoch 3 Loss: 1.2035001516342163, Accuracy: 0.8333333730697632, Val Loss: 4.370042324066162, Val Accuracy: 0.3944949805736542
+Epoch 4/10
+4781/4781 [==============================] - 7s 1ms/step
+Epoch 4 Loss: 1.1152594089508057, Accuracy: 0.8333333730697632, Val Loss: 4.133573055267334, Val Accuracy: 0.41951000690460205
+Epoch 5/10
+4781/4781 [==============================] - 7s 1ms/step
+Epoch 5 Loss: 1.1348936557769775, Accuracy: 0.75, Val Loss: 4.575918197631836, Val Accuracy: 0.4192681610584259
+Epoch 6/10
+4781/4781 [==============================] - 8s 2ms/step
+Epoch 6 Loss: 1.138289213180542, Accuracy: 0.75, Val Loss: 4.915617942810059, Val Accuracy: 0.42220303416252136
+Epoch 7/10
+4781/4781 [==============================] - 7s 1ms/step
+Epoch 7 Loss: 1.0481257438659668, Accuracy: 0.8333333730697632, Val Loss: 5.436697006225586, Val Accuracy: 0.42010483145713806
+Epoch 8/10
+4781/4781 [==============================] - 8s 2ms/step
+Epoch 8 Loss: 1.0485082864761353, Accuracy: 0.8333333730697632, Val Loss: 5.75389289855957, Val Accuracy: 0.41626793146133423
+Epoch 9/10
+4781/4781 [==============================] - 10s 2ms/step
+Epoch 9 Loss: 1.0630416870117188, Accuracy: 0.8333333730697632, Val Loss: 5.98820161819458, Val Accuracy: 0.40746331214904785
+Epoch 10/10
+4781/4781 [==============================] - 7s 1ms/step
+Epoch 10 Loss: 1.0549590587615967, Accuracy: 0.9166666865348816, Val Loss: 6.30298376083374, Val Accuracy: 0.39435771107673645
+4781/4781 [==============================] - 7s 1ms/step
+Confusion Matrix:
+[[ 6847    28  9439     0  3642     0     9]
+ [  910  6281   259     0 12466     0    53]
+ [  723     0 32410     0   149     0     1]
+ [ 1104  6132    49     0 12390     0   118]
+ [ 1063  4546    54     0 14274     0    90]
+ [ 9773   156  3850     0  6165     0    72]
+ [ 6759   947   865     0 10844     0   520]]
+/Users/ahnminsu/miniconda3/envs/Model/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/Users/ahnminsu/miniconda3/envs/Model/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/Users/ahnminsu/miniconda3/envs/Model/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Classification Report:
+              precision    recall  f1-score   support
+
+   Galloping       0.25      0.34      0.29     19965
+ Lying chest       0.35      0.31      0.33     19969
+     Shaking       0.69      0.97      0.81     33283
+     Sitting       0.00      0.00      0.00     19793
+    Standing       0.24      0.71      0.36     20027
+    Trotting       0.00      0.00      0.00     20016
+     Walking       0.60      0.03      0.05     19935
+
+    accuracy                           0.39    152988
+   macro avg       0.30      0.34      0.26    152988
+weighted avg       0.34      0.39      0.31    152988
+/Users/ahnminsu/miniconda3/envs/Model/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/Users/ahnminsu/miniconda3/envs/Model/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/Users/ahnminsu/miniconda3/envs/Model/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1471: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/Users/ahnminsu/miniconda3/envs/Model/lib/python3.8/site-packages/keras/src/engine/training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+WARNING:tensorflow:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.

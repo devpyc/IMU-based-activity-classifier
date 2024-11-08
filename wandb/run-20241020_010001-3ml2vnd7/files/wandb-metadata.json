@@ -1,0 +1,32 @@
+{
+  "os":  "macOS-15.0.1-arm64-arm-64bit",
+  "python":  "3.8.20",
+  "startedAt":  "2024-10-19T16:00:01.763658Z",
+  "program":  "/Users/ahnminsu/PycharmProjects/Pet-i-CNN-Model/main.py",
+  "codePath":  "main.py",
+  "git":  {
+    "remote":  "https://github.com/yechan6855/Pet-i-CNN-Model.git",
+    "commit":  "0bd7c0f1e4089be1357da450df48e86f973ba76b"
+  },
+  "email":  "dksalstn1116@gmail.com",
+  "root":  "/Users/ahnminsu/PycharmProjects/Pet-i-CNN-Model",
+  "host":  "anminsus-MacBook-Air.local",
+  "username":  "ahnminsu",
+  "executable":  "/Users/ahnminsu/miniconda3/envs/Model/bin/python",
+  "codePathLocal":  "main.py",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "245107195904",
+      "used":  "156661321728"
+    }
+  },
+  "memory":  {
+    "total":  "17179869184"
+  },
+  "cpu":  {
+    "count":  8,
+    "countLogical":  8
+  }
+}
