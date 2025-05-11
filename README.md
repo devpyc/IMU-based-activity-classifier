@@ -1,5 +1,5 @@
 
-# Pet-i Behavior Classification
+# IMU based activity classifier
 
 ## 개요
 이 프로젝트의 목적은 차세대통신 혁신융합대학사업단에서 주관하고, 국민대학교와 울산과학대학교가 참여한 반려견 헬스케어 시스템 Pet-i 애플리케이션에 탑재하기 위함입니다.
