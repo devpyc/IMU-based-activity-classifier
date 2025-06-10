@@ -8,7 +8,7 @@
 ```
 .
 ├── dataset/
-│   ├── DogInfo.csv         # 강아지 메타 정보 (ID, 품종 등)
+│   ├── DogInfo.csv         # 반려견 메타 정보 (ID, 품종 등)
 │   └── DogMoveData.csv     # 센서 데이터와 행동 라벨
 ├── Pet\_i\_Behavior\_Classification.ipynb  # 모듈화된 Jupyter Notebook
 ├── main.py                 # 모듈화 이전의 스크립트 버전 (참고용)
